@@ -7,7 +7,6 @@
 想要改成每天一个日志文件, 这样线上也好排查问题
 
 研究了[官方文档](http://d.laravel-china.org/docs/5.4/errors#log-storage), `config/app.php`做了如下修改
-
     'log' => 'daily'
 
 ## 第二阶段
@@ -15,7 +14,10 @@
 
 于是在`bootstrap/app.php`里面增加了一下代码,调整了存储目录
 
+```php
+<?php
     $app->useStoragePath('/your/path/to/storage');
+```
 
 ## 第三阶段
 我有队列在运行,而且是多个队列,所有日志都在一起的话很难排查问题
@@ -25,6 +27,7 @@
 google了不少方案,对monolog的用法明白了一些,`bootstrap/app.php`做了如下修改
 
 ```php
+<?php
 $app->configureMonologUsing(function ($monolog) {
     $levels = [
         Monolog\Logger::DEBUG,
@@ -80,6 +83,7 @@ BUT!!!!! 还是有问题存在
 有一个文件是`Monolog\Handler\StreamHandler`,他是`RotatingFileHandler`的父类,也是写文件,创建文件夹等操作的关键
 
 ```php
+<?php
 private function createDir()
 {
     // Do not try to create dir if it has already been tried.
