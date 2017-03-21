@@ -29,27 +29,17 @@ google了不少方案,对monolog的用法明白了一些,`bootstrap/app.php`做�
 ```php
 <?php
 $app->configureMonologUsing(function ($monolog) {
-    $levels = [
-        Monolog\Logger::DEBUG,
-        Monolog\Logger::INFO,
-        Monolog\Logger::NOTICE,
-        Monolog\Logger::WARNING,
-        Monolog\Logger::ERROR,
-        Monolog\Logger::CRITICAL,
-        Monolog\Logger::ALERT,
-        Monolog\Logger::EMERGENCY,
-    ];
 
     if (empty($_SERVER['queue_id'])) {
         $path = 'logs/web.log';
     } else {
         $path = 'logs/queue_' . $_SERVER['queue_id'] . '.log';
     }
-    foreach ($levels as $level) {
-        $handler = new Monolog\Handler\RotatingFileHandler(storage_path($path), 0, $level);
-        $handler->setFilenameFormat('{date}/{filename}', 'Y-m-d');
-        $monolog->pushHandler($handler);
-    }
+
+    $handler = new Monolog\Handler\RotatingFileHandler(storage_path($path), 0, Monolog\Logger::INFO);
+    $handler->setFilenameFormat('{date}/{filename}', 'Y-m-d');
+    $monolog->pushHandler($handler);
+
 });
 ```
 
@@ -118,3 +108,6 @@ private function createDir()
 问题最终得到凑合解决
 
 如果哪位大神有更好的方式,请联系我,感激不尽呀
+
+## 再次补充
+之前我把所有level的日志级别都push到了handlers里面, 导致很多日志都打印两次或者更多次, 其实应该根据日志级别去处理一个, 上面的代码也已经更新成正确的了
