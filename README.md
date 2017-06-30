@@ -3,5 +3,5 @@
 
 ### laravel文章
 
-[laravel队列中打印日志的特殊问题](topic/20170320_laravel_queue_log.md)
-[laravel的policy如何支持多个参数](topic/20170630_laravel_policy_multi_param.md)
+- [laravel队列中打印日志的特殊问题](topic/20170320_laravel_queue_log.md)
+- [laravel的policy如何支持多个参数](topic/20170630_laravel_policy_multi_param.md)
