@@ -198,12 +198,7 @@ $user->can('update', [$comment, $post])
 这样就实现了
 
 ## 补充
-
 ### 补充1
-```array_wrap```仅针对非数组包一层
-
-
-### 补充2
 因为最终调用policy的方法是这样写的
 
 `$policy->{$ability}($user, ...$arguments)`
@@ -211,7 +206,7 @@ $user->can('update', [$comment, $post])
 所以policy定义处的参数就被展开了
 
 
-### 补充3
+### 补充2
 我发现每次都要注册, 特别累, 于是有了以下代码
 
 ```php
@@ -233,4 +228,5 @@ $user->can('update', [$comment, $post])
 	}
 ```
 
+## 结束
 > 多看源码, 多了解一些小秘密, 😄
