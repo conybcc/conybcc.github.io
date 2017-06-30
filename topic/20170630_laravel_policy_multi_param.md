@@ -202,10 +202,29 @@ $user->can('update', [$comment, $post])
 
 因为最终调用policy的方法是这样写的
 
-```
-$policy->{$ability}($user, ...$arguments)
-```
+``` $policy->{$ability}($user, ...$arguments) ```
 
 所以policy定义处的参数就被展开了
+
+我发现每次都要注册, 特别累, 于是有了以下代码
+
+```php
+<?php
+
+    public function boot()
+    {
+        $this->policies = collect(scandir(__DIR__ . '/../Policies'))
+        ->reject(function ($name) {
+            return !str_contains($name, 'Policy');
+        })
+        ->mapWithKeys(function ($name) {
+            $name = str_replace('Policy.php', '', $name);
+            return ["App\Models\\${name}" => "App\Policies\\${name}Policy"];
+        })
+        ->toArray();
+
+        $this->registerPolicies();
+	}
+```
 
 > 多看源码, 多了解一些小秘密, 😄
