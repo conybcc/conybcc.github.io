@@ -1,4 +1,4 @@
-# laravel的policy如何支持多个参数
+# laravel的policy机制不为人知的小秘密
 ## 背景介绍
 ### policy的基础使用
 [参考文档](http://d.laravel-china.org/docs/5.4/authorization#authorizing-actions-using-policies),policy使用主要有三部分
@@ -207,3 +207,5 @@ $policy->{$ability}($user, ...$arguments)
 ```
 
 所以policy定义处的参数就被展开了
+
+> 多看源码, 多了解一些小秘密, 😄
