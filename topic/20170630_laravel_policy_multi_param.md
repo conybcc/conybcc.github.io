@@ -201,6 +201,7 @@ $user->can('update', [$comment, $post])
 ```array_wrap```仅针对非数组包一层
 
 因为最终调用policy的方法是这样写的
+
 ```
 $policy->{$ability}($user, ...$arguments)
 ```
