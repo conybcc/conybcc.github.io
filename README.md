@@ -3,6 +3,7 @@
 
 ### 金融方向python入门课程
 - [第一课 初识python, 学会小小的爬虫](topic/20181108_python_lesson1.md)
+- [第一课 安装环境, 分析上交所的年报](topic/20181109_python_lesson2.md)
 
 ### laravel文章
 
