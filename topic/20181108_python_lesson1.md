@@ -77,3 +77,13 @@ for product in data['result']:
 
 python里面有很多语法上的细节不是本节课的重点, 随着课程的深入与示例的丰富, 会逐步学习语法
 
+## 宣传一下
+- [https://conybcc.github.io/](https://conybcc.github.io/) 这是我的github博客（会不断更新免费课程）
+- [http://www.gonggaotong.net/](http://www.gonggaotong.net/) 公告通 这是我的工作室开发一款工具，可以检索与分析上市公司公告，还有下载器可以检索并下载公告
+
+## 我的联系方式
+- 知乎：可白
+- 微信：ilovebcc （需要一对一教学请加好友时注明）
+- YY号: 2341272648
+- YY直播频道： 1352492359
+- QQ: 383124540
