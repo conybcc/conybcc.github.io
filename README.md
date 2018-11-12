@@ -13,6 +13,8 @@
     - <img src="topic/images/v_qq.png" style="width:1rem" />腾讯视频 <a href="https://v.qq.com/x/page/y0791vq97oj.html" target="_blank">https://v.qq.com/x/page/y0791vq97oj.html</a>
 - [第二课 安装环境, 分析上交所的年报](topic/20181109_python_lesson2.md)
     - 视频制做中...
+    - <img src="topic/images/bilibili.png" style="width:1rem" /> B站视频 <a href="https://www.bilibili.com/video/av35860040/" target="_blank">https://www.bilibili.com/video/av35860040/</a>
+    - <img src="topic/images/v_qq.png" style="width:1rem" />腾讯视频 <a href="https://v.qq.com/x/page/y0791agl9ov.html" target="_blank">https://v.qq.com/x/page/y0791agl9ov.html</a>
 - [第三课 爬取上交所年报到本地](topic/20181111_python_lesson3.md)
     - 视频制做中...
 
