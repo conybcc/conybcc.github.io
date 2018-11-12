@@ -167,9 +167,7 @@ for report in data['result']:
 
 如果你对我的课程感兴趣，欢迎与我联系，提供一对一教学，也可以帮助实现特定程序
 
-## 宣传一下
-- [https://conybcc.github.io/](https://conybcc.github.io/) 这是我的github博客（会不断更新免费课程）
-- [http://www.gonggaotong.net/](http://www.gonggaotong.net/) 公告通 这是我的工作室开发一款工具，可以检索与分析上市公司公告，还有下载器可以检索并下载公告
+[更多课程](https://conybcc.github.io/)
 
 ## 我的联系方式
 - 知乎：可白
@@ -177,4 +175,5 @@ for report in data['result']:
 - YY号: 2341272648
 - YY直播频道： 1352492359
 - QQ: 383124540
+- [http://www.gonggaotong.net/](http://www.gonggaotong.net/) 公告通，可以检索分析与下载上市公司公告
 
