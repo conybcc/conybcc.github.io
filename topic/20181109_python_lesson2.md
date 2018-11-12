@@ -1,7 +1,8 @@
 # 第二课 安装python环境 深入了解爬虫
 ## windows下安装python环境
 ### 下载
-首先打开python的官网windows版本下载页面 [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/)
+首先打开python的官网windows版本下载页面
+<a href="https://www.python.org/downloads/windows/" target="_blank">https://www.python.org/downloads/windows/</a>
 
 进入`Latest Python 3 Release`
 
@@ -17,7 +18,7 @@
 
 输入 `python` , 如果看到Python的版本介绍, 如 `Python 3.7.1 .....` 说明安装成功
 
-也可以打开 `IDEL` (官方编辑器)
+也可以打开 `IDLE` (官方编辑器)
 
 输入 `print('hello world')` 然后回车, 测试是否可以打印输出成功
 
@@ -34,8 +35,8 @@
 ### 正常浏览
 以人的行为去查看年报的流程如下
 
-- 打开网站 [http://www.sse.com.cn/](http://www.sse.com.cn/)
-- 在披露菜单中选择 `上市公司信息` -> `最新公告`, 进入了网址 [http://www.sse.com.cn/disclosure/listedinfo/announcement/](http://www.sse.com.cn/disclosure/listedinfo/announcement/)
+- 打开网站 <a href="http://www.sse.com.cn/" target="_blank">http://www.sse.com.cn/</a>
+- 在披露菜单中选择 `上市公司信息` -> `最新公告`, 进入了网址 <a href="http://www.sse.com.cn/disclosure/listedinfo/announcement/" target="_blank">http://www.sse.com.cn/disclosure/listedinfo/announcement/</a>
 - 在搜索框的类型中选择`年报`, 时间选择`2018-04-01` 到 `2018-04-30`
 - 点击查询, 得到结果
 - 从结果列表中点击某一条年报, 看到详细pdf内容
