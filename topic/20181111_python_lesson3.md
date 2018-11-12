@@ -175,5 +175,6 @@ for report in data['result']:
 - YY号: 2341272648
 - YY直播频道： 1352492359
 - QQ: 383124540
-- [http://www.gonggaotong.net/](http://www.gonggaotong.net/) 公告通，可以检索分析与下载上市公司公告
 
+## 宣传一下
+- <a href="http://www.gonggaotong.net/" target="_blank">http://www.gonggaotong.net/</a> 公告通 这是我的工作室开发一款工具，可以检索与分析上市公司公告，还有下载器可以检索并下载公告
