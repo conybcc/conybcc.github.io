@@ -17,6 +17,8 @@
 - [第三课 爬取上交所年报到本地](topic/20181111_python_lesson3.md)
     - <img src="topic/images/bilibili.png" style="width:1rem" /> B站视频 <a href="https://www.bilibili.com/video/av35860657/" target="_blank">https://www.bilibili.com/video/av35860657/</a>
     - <img src="topic/images/v_qq.png" style="width:1rem" />腾讯视频 <a href="https://v.qq.com/x/page/u0791i2ejo7.html" target="_blank">https://v.qq.com/x/page/u0791i2ejo7.html</a>
+- [第四课 学习python的基本语法](topic/20181111_python_lesson4.md)
+    - 视频制做中...
 
 ### 观点
 - [关于金融会计等经济领域从业人员学习编程知识的思考](topic/20181110_viewpoint_about_learn_program.md)
