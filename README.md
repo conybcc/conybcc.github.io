@@ -23,6 +23,20 @@
     - <img src="topic/images/bilibili.png" style="width:1rem" /> B站视频 <a href="https://www.bilibili.com/video/av35837780/" target="_blank">https://www.bilibili.com/video/av35837780/</a>
     - <img src="topic/images/v_qq.png" style="width:1rem" />腾讯视频 <a href="https://v.qq.com/x/page/g0791m24ohq.html" target="_blank">https://v.qq.com/x/page/g0791m24ohq.html</a>
 
+## 外包项目
+我做过一些比较复杂的实际项目，如果你有开发具体项目的需要，也可以联系我
+
+做过的项目有的是用python开发，也有其他编程语言开发的，简单列举一部分
+
+- 量化交易策略节回归测试
+- 蒙特卡罗模拟进行价格区分概率分析
+- 重要指标及相关因子可视化分析
+- 个性化数据爬虫
+- 消息面情感定量分析
+- 复杂数据清洗与加工
+- 机器学习神经网络训练
+- 公司资产组成变化趋势与风险分析
+
 ## 我的联系方式
 - 微信：ilovebcc （需要一对一教学请加好友时注明）
 - YY: 2341272648
