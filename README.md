@@ -17,7 +17,7 @@
 - [第三课 爬取上交所年报到本地](topic/20181111_python_lesson3.md)
     - <img src="topic/images/bilibili.png" style="width:1rem" /> B站视频 <a href="https://www.bilibili.com/video/av35860657/" target="_blank">https://www.bilibili.com/video/av35860657/</a>
     - <img src="topic/images/v_qq.png" style="width:1rem" />腾讯视频 <a href="https://v.qq.com/x/page/u0791i2ejo7.html" target="_blank">https://v.qq.com/x/page/u0791i2ejo7.html</a>
-- [第四课 学习python的基本语法](topic/20181111_python_lesson4.md)
+- [第四课 学习python的基本语法](topic/20181113_python_lesson4.md)
     - 视频制做中...
 
 ### 观点
@@ -30,7 +30,7 @@
 
 做过的项目有的是用python开发，也有其他编程语言开发的，简单列举一部分
 
-- 量化交易策略节回归测试
+- 量化交易策略与回归测试
 - 蒙特卡罗模拟进行价格区分概率分析
 - 重要指标及相关因子可视化分析
 - 个性化数据爬虫
@@ -38,6 +38,7 @@
 - 复杂数据清洗与加工
 - 机器学习神经网络训练
 - 公司资产组成变化趋势与风险分析
+- 优化程序性能与理清复杂逻辑
 
 ## 我的联系方式
 - 微信：ilovebcc （需要一对一教学请加好友时注明）
