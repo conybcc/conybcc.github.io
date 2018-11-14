@@ -17,7 +17,7 @@
 
 先看一下最终结果，赚了不少钱，哈哈
 
-![image](images/lesson5_result.jpg)
+![image](images/lesson5_result.png)
 
 ## 从上交所抓取近2000天的上证指数
 ### 分析
