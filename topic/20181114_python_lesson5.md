@@ -130,12 +130,15 @@ def strategy(df):
 
     def avg_buy(x):
         ''' 做多策略 '''
+        # 这里应该是追涨杀跌的策略，我在视频里说的类似低建高平策略，视频说的是错的
+        # 写代码的时候改过几次，后来没改注释，导致视频说错了
+        # 不过具体策略不影响我们程序的学习，大家注意到就好了
         min_percent = 0.995
         max_percent = 1.005
-        # 某天的价格低于均线一定比例，准备开仓做多
+        # 追涨，当我们的价格超过了均线一定程度时
         if (x[1] / x[0]) < min_percent:
             return 'open buy'
-        # 某天的价格高于均线一定比例，准备平掉多仓
+        # 杀跌，当我们的价格低于均线一定程度时
         if (x[1] / x[0]) > max_percent:
             return 'close buy'
         # 其他情况不操作
@@ -160,9 +163,11 @@ rolling那一行的整体意思是计算最近15天的平均收盘价，我们�
 在`avg_buy`里面，`x[0]`表示当天收盘价， `x[1]`表示当天平均价
 
 ### 策略
-我们把他们进行比较，如果收盘价低于均线一定比例，我们就买股票
+我们把他们进行比较，如果收盘价超过均线一定比例，我们就买股票，追涨
 
-如果收盘价高于均线一定比例，就卖掉股票
+如果收盘价跌过均线一定比例，就卖掉股票，杀跌
+
+请注意视频中的说明是错误的，文字版这里的解释才是正确的
 
 ### 真实的交易细节相关
 理论上是不可能收盘时买股票的，所以我们这里的收盘价可以认为是接近收盘的5分钟内的价格，这时候买入跟收盘价比较接近。我们所有统计也基于这样的收盘价，并不影响策略与收益
@@ -268,6 +273,8 @@ def draw(df):
 
 本课不详细介绍画图流程了，希望大家把重点放在数据处理上，后面我们会详细讲画图
 
+注意， 我在视频教程中用的是旧版，最新的我已经加入了均线与买入点，卖出点，请注意
+
 ## 详细结果导出到csv文件
 ```python
 df.to_csv('./result.csv', index = False)
@@ -353,12 +360,15 @@ def strategy(df):
 
     def avg_buy(x):
         ''' 做多策略 '''
+        # 这里应该是追涨杀跌的策略，我在视频里说的类似低建高平策略，视频说的是错的
+        # 写代码的时候改过几次，后来没改注释，导致视频说错了
+        # 不过具体策略不影响我们程序的学习，大家注意到就好了
         min_percent = 0.995
         max_percent = 1.005
-        # 某天的价格低于均线一定比例，准备开仓做多
+        # 追涨，当我们的价格超过了均线一定程度时
         if (x[1] / x[0]) < min_percent:
             return 'open buy'
-        # 某天的价格高于均线一定比例，准备平掉多仓
+        # 杀跌，当我们的价格低于均线一定程度时
         if (x[1] / x[0]) > max_percent:
             return 'close buy'
         # 其他情况不操作
@@ -410,6 +420,7 @@ def draw(df):
     # 准备横坐标
     count = df.count()['close']
     index = np.arange(count)
+    df['index'] = index
 
     # 设置横坐标的刻度与显示标签
     limit = 200
@@ -422,13 +433,31 @@ def draw(df):
     # 画收盘价曲线
     ax_close.set(xlabel='Date', ylabel='close')
     l_close, = ax_close.plot(index, df['close'], 'black', label='close')
+    l_avg, = ax_close.plot(index, df['avg'], 'pink', label='avg')
 
     # 画资产曲线
     ax_liquidate.set(ylabel = 'liquidate')
     l_liquidate, = ax_liquidate.plot(index, df['liquidate'], 'blue', label='liquidate')
 
+    def drawAction(row):
+        if row['message'] == 'nothing':
+            return
+
+        color = ''
+        marker = 'o'
+        size = 12
+
+        if row['action'] == 'open buy':
+            color='r'
+        if row['action'] == 'close buy':
+            color='g'
+
+        ax_close.scatter(row['index'], row['close'], s=size, color=color, zorder=2, marker=marker)
+
+    df[['index', 'action', 'message', 'close']].apply(drawAction, axis=1)
+
     # 给两条线都提供一个图例说明
-    plt.legend(handles=[l_close, l_liquidate])
+    plt.legend(handles=[l_close, l_avg, l_liquidate])
     plt.show()
 
 if __name__ == '__main__':
