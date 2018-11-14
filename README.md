@@ -21,7 +21,7 @@
     - <img src="topic/images/bilibili.png" style="width:1rem" /> B站视频 <a href="https://www.bilibili.com/video/av35890316/" target="_blank">https://www.bilibili.com/video/av35890316/</a>
     - <img src="topic/images/v_qq.png" style="width:1rem" />腾讯视频 <a href="https://v.qq.com/x/page/r0792927tiz.html" target="_blank">https://v.qq.com/x/page/r0792927tiz.html</a>
 - [第五课 用Python做量化交易策略 画图并导出csv](topic/20181114_python_lesson5.md)
-    视频制做中，请先看文字版本
+    - 视频制做中，请先看文字版本
 
 ### 观点
 - [关于金融会计等经济领域从业人员学习编程知识的思考](topic/20181110_viewpoint_about_learn_program.md)
