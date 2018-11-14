@@ -34,12 +34,17 @@
 - 量化交易策略与回归测试
 - 蒙特卡罗模拟进行价格区分概率分析
 - 重要指标及相关因子可视化分析
-- 个性化数据爬虫
+- 个性化数据爬虫及文本统计分析
 - 消息面情感定量分析
 - 复杂数据清洗与加工
 - 机器学习神经网络训练
 - 公司资产组成变化趋势与风险分析
 - 优化程序性能与理清复杂逻辑
+
+## 一对一培训
+了解清楚目标后，可以试听一课，满意后再付款
+
+如果有概念没有理解清楚，随时可以询问，不再收费
 
 ## 我的联系方式
 - 微信：ilovebcc （需要一对一教学请加好友时注明）
@@ -48,3 +53,13 @@
 
 ## 宣传一下
 - <a href="http://www.gonggaotong.net/" target="_blank">http://www.gonggaotong.net/</a> 公告通 这是我的工作室开发一款工具，可以检索与分析上市公司公告，还有下载器可以检索并下载公告
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?16fabcce9c3690ffefd5a1d6ffaf6bdf";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>

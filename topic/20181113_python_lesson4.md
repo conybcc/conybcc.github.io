@@ -166,3 +166,13 @@ print('ok') # 没有缩进， 不属于if的范围，无论if是否成功，都�
 
 ## 宣传一下
 - <a href="http://www.gonggaotong.net/" target="_blank">http://www.gonggaotong.net/</a> 公告通 这是我的工作室开发一款工具，可以检索与分析上市公司公告，还有下载器可以检索并下载公告
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?16fabcce9c3690ffefd5a1d6ffaf6bdf";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
