@@ -463,31 +463,3 @@ def draw(df):
 if __name__ == '__main__':
     run()
 ```
-
-
-## 最后
-我近期一边整理免费课程，也会推出更多的免费视频，方便大家结合查看学习
-
-如果你对我的课程感兴趣，欢迎与我联系，提供一对一教学，也可以帮助实现特定程序
-
-[更多课程](https://conybcc.github.io/)
-
-## 我的联系方式
-- 知乎：可白
-- 微信：ilovebcc （需要一对一教学请加好友时注明）
-- YY号: 2341272648
-- YY直播频道： 1352492359
-- QQ: 383124540
-
-## 宣传一下
-- <a href="http://www.gonggaotong.net/" target="_blank">http://www.gonggaotong.net/</a> 公告通 这是我的工作室开发一款工具，可以检索与分析上市公司公告，还有下载器可以检索并下载公告
-
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?16fabcce9c3690ffefd5a1d6ffaf6bdf";
-  var s = document.getElementsByTagName("script")[0];
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
