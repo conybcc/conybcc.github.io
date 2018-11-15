@@ -3,6 +3,16 @@
 本博客主要为金融/证券/会计/公司治理等方向的朋友提供免费编程课程与一对一服务。
 目前以`python`为主， 以后还会有`R` `matlab` `stata`等语言的培训。
 
+```python
+lines = [
+  'Who has seen the wind?',
+  'Neither you nor I.',
+  'But when the trees bow down their heads,',
+  'The wind is passing by.',
+]
+print(lines[::-1])
+```
+
 ## python相关课程
 
 站内文字课程 | 教学视频
