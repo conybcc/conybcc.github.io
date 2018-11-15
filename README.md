@@ -13,7 +13,7 @@ lines = [
 print(lines[::-1])
 ```
 
-## python相关课程
+## python课程：跟着小邢老师学python
 
 站内文字课程 | 教学视频
 --|--
@@ -22,7 +22,14 @@ print(lines[::-1])
 [第二课 安装环境, 分析上交所的年报](topic/20181109_python_lesson2.md) |  <a href="https://www.bilibili.com/video/av35860040/" target="_blank"><img src="topic/images/bilibili.png" />B站</a> , <a href="https://v.qq.com/x/page/y0791agl9ov.html" target="_blank"><img src="topic/images/v_qq.png" />腾讯</a>
 [第三课 爬取上交所年报到本地](topic/20181111_python_lesson3.md) |  <a href="https://www.bilibili.com/video/av35860657/" target="_blank"><img src="topic/images/bilibili.png" />B站</a> , <a href="https://v.qq.com/x/page/u0791i2ejo7.html" target="_blank"><img src="topic/images/v_qq.png" />腾讯</a>
 [第四课 学习python的基本语法](topic/20181113_python_lesson4.md) |  <a href="https://www.bilibili.com/video/av35890316/" target="_blank"><img src="topic/images/bilibili.png" />B站</a> , <a href="https://v.qq.com/x/page/r0792927tiz.html" target="_blank"><img src="topic/images/v_qq.png" />腾讯</a>
-[第五课 用Python做量化交易策略 画图并导出csv](topic/20181114_python_lesson5.md) |  <a href="https://www.bilibili.com/video/av35982906/" target="_blank"><img src="topic/images/bilibili.png" />B站</a> , <a href="https://v.qq.com/x/page/l0793478hgv.html" target="_blank"><img src="topic/images/v_qq.png" />腾讯</a>
+[第五课 用python做量化交易策略 画图并导出csv](topic/20181114_python_lesson5.md) |  <a href="https://www.bilibili.com/video/av35982906/" target="_blank"><img src="topic/images/bilibili.png" />B站</a> , <a href="https://v.qq.com/x/page/l0793478hgv.html" target="_blank"><img src="topic/images/v_qq.png" />腾讯</a>
+待定课程 用python画走势图 |
+待定课程 python里面的函数，类那些事儿 |
+待定课程 python来做蒙特卡罗模拟 |
+待定课程 处理数据神器pandas详解 |
+待定课程 更强大的爬虫Scrapy |
+待定课程 python可以搞一些有趣的事情 |
+待定课程 人物关系爬取并可视化处理 |
 
 ## 外包项目
 我做过一些比较复杂的实际项目，如果你有开发具体项目的需要，也可以联系我
