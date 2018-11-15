@@ -206,6 +206,10 @@ img {
   max-width:100%;
 }
 
+a img {
+  width: 1rem;
+  vertical-align: text-bottom;
+}
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
   color:#991818;

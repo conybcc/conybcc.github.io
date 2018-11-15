@@ -9,14 +9,12 @@
 
 站内文字课程 | 教学视频
 --|--
-[第一课 初识python, 学会小小的爬虫](topic/20181108_python_lesson1.md) | <a href="https://www.bilibili.com/video/av35831119/" target="_blank"><img src="topic/images/bilibili.png" style="width:1rem" />B站视频</a> , <a href="https://v.qq.com/x/page/y0791vq97oj.html" target="_blank"><img src="topic/images/v_qq.png" style="width:1rem" />腾讯视频</a>
-[第二课 安装环境, 分析上交所的年报](topic/20181109_python_lesson2.md) |  <a href="https://www.bilibili.com/video/av35860040/" target="_blank"><img src="topic/images/bilibili.png" style="width:1rem" />B站视频</a> , <a href="https://v.qq.com/x/page/y0791agl9ov.html" target="_blank"><img src="topic/images/v_qq.png" style="width:1rem" />腾讯视频</a>
-[第三课 爬取上交所年报到本地](topic/20181111_python_lesson3.md) |  <a href="https://www.bilibili.com/video/av35860657/" target="_blank"><img src="topic/images/bilibili.png" style="width:1rem" />B站视频</a> , <a href="https://v.qq.com/x/page/u0791i2ejo7.html" target="_blank"><img src="topic/images/v_qq.png" style="width:1rem" />腾讯视频</a>
-[第四课 学习python的基本语法](topic/20181113_python_lesson4.md) |  <a href="https://www.bilibili.com/video/av35890316/" target="_blank"><img src="topic/images/bilibili.png" style="width:1rem" />B站视频</a> , <a href="https://v.qq.com/x/page/r0792927tiz.html" target="_blank"><img src="topic/images/v_qq.png" style="width:1rem" />腾讯视频</a>
-[第五课 用Python做量化交易策略 画图并导出csv](topic/20181114_python_lesson5.md) |  <a href="https://www.bilibili.com/video/av35982906/" target="_blank"><img src="topic/images/bilibili.png" style="width:1rem" />B站视频</a> , <a href="https://v.qq.com/x/page/l0793478hgv.html" target="_blank"><img src="topic/images/v_qq.png" style="width:1rem" />腾讯视频</a>
-
-### 观点
-- [关于金融会计等经济领域从业人员学习编程知识的思考](topic/20181110_viewpoint_about_learn_program.md) <img src="topic/images/bilibili.png" style="width:1rem" /><a href="https://www.bilibili.com/video/av35837780/" target="_blank"> B站视频</a> <img src="topic/images/v_qq.png" style="width:1rem" /><a href="https://v.qq.com/x/page/g0791m24ohq.html" target="_blank">腾讯视频</a>
+[观点：关于金融会计等经济领域从业人员学习编程知识的思考](topic/20181110_viewpoint_about_learn_program.md) | <a href="https://www.bilibili.com/video/av35837780/" target="_blank"><img src="topic/images/bilibili.png" />B站视频</a> , <a href="https://v.qq.com/x/page/g0791m24ohq.html" target="_blank"><img src="topic/images/v_qq.png" />腾讯视频</a>
+[第一课 初识python, 学会小小的爬虫](topic/20181108_python_lesson1.md) | <a href="https://www.bilibili.com/video/av35831119/" target="_blank"><img src="topic/images/bilibili.png" />B站视频</a> , <a href="https://v.qq.com/x/page/y0791vq97oj.html" target="_blank"><img src="topic/images/v_qq.png" />腾讯视频</a>
+[第二课 安装环境, 分析上交所的年报](topic/20181109_python_lesson2.md) |  <a href="https://www.bilibili.com/video/av35860040/" target="_blank"><img src="topic/images/bilibili.png" />B站视频</a> , <a href="https://v.qq.com/x/page/y0791agl9ov.html" target="_blank"><img src="topic/images/v_qq.png" />腾讯视频</a>
+[第三课 爬取上交所年报到本地](topic/20181111_python_lesson3.md) |  <a href="https://www.bilibili.com/video/av35860657/" target="_blank"><img src="topic/images/bilibili.png" />B站视频</a> , <a href="https://v.qq.com/x/page/u0791i2ejo7.html" target="_blank"><img src="topic/images/v_qq.png" />腾讯视频</a>
+[第四课 学习python的基本语法](topic/20181113_python_lesson4.md) |  <a href="https://www.bilibili.com/video/av35890316/" target="_blank"><img src="topic/images/bilibili.png" />B站视频</a> , <a href="https://v.qq.com/x/page/r0792927tiz.html" target="_blank"><img src="topic/images/v_qq.png" />腾讯视频</a>
+[第五课 用Python做量化交易策略 画图并导出csv](topic/20181114_python_lesson5.md) |  <a href="https://www.bilibili.com/video/av35982906/" target="_blank"><img src="topic/images/bilibili.png" />B站视频</a> , <a href="https://v.qq.com/x/page/l0793478hgv.html" target="_blank"><img src="topic/images/v_qq.png" />腾讯视频</a>
 
 ## 外包项目
 我做过一些比较复杂的实际项目，如果你有开发具体项目的需要，也可以联系我
