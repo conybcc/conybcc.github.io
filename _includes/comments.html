@@ -9,7 +9,7 @@
 </section>
 
 <script type="text/javascript">
-document.getElementById("comments").onload=function(){
+document.onload=function(){
   const apiUrl = 'https://api.github.com/repos/conybcc/conybcc.github.io/issues/{{ page.gh_issue_id }}/comments'
   fetch(apiUrl)
   .then(function(response) {
