@@ -43,6 +43,15 @@
           <li>QQ: 383124540</li>
         </ul>
       </section>
+      {%- if post.gh_issue_id %}
+        <div>post.gh_issue_id</div>
+        {%- include "_comments.html" %}
+      {%- endif %}
+      {%- if page.gh_issue_id %}
+        <div>page.gh_issue_id</div>
+        {%- include "_comments.html" %}
+      {%- endif %}
+      {%- include "_comments.html" %}
     </div>
     <footer>
       <p>如果你想控制世界，从控制你的代码开始</p>
