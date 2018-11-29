@@ -5,11 +5,11 @@
     </a>
     评论完成后,回到该页面刷新
   <span>
-  <div class='blog-post-comments'></div>
+  <div id="comments" class='blog-post-comments'></div>
 </section>
 
 <script type="text/javascript">
-(function() {
+document.getElementById("comments").onload=function(){
   const apiUrl = 'https://api.github.com/repos/conybcc/conybcc.github.io/issues/{{ page.gh_issue_id }}/comments'
   fetch(apiUrl)
   .then(function(response) {
@@ -32,5 +32,5 @@
         )
       })
   });
-})();
+}
 </script>
