@@ -3,7 +3,39 @@
     <a target='_blank' href='https://github.com/conybcc/conybcc.github.io/issues/{{ page.gh_issue_id }}'>
       点击评论(需要登录github账号)
     </a>
-    评论完成后,回到该页面刷新
+    评论完成后,回博客刷新
   <span>
-  <div class='blog-post-comments'></div>
+  <div id="comments" class='blog-post-comments'></div>
 </section>
+
+
+<script type="text/javascript">
+  const apiUrl = 'https://api.github.com/repos/conybcc/conybcc.github.io/issues/{{ page.gh_issue_id }}/comments'
+  fetch(apiUrl)
+  .then(function(response) {
+    return response.json();
+  })
+  .then(function(comments) {
+      const $commentSection = document.getElementById('comments')
+
+      comments.forEach(function (comment) {
+        const comment = document.createElement('div')
+        comment.className = 'comment'
+
+        const link = document.createElement('a')
+        link.href = comment.user.html_url
+        link.target = '_blank'
+        link.text = comment.user.login
+        comment.append(link)
+
+        const createdAtText = ', ' + new Date(comment.created_at).toUTCString()
+        comment.append(createdAtText)
+
+        p = document.createElement('p')
+        p.text = comment.body_html
+        comment.append(p)
+
+        $commentSection.append(comment)
+      })
+  });
+</script>
