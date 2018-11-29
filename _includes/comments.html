@@ -17,9 +17,9 @@
   })
   .then(function(comments) {
       const $commentSection = $('.blog-post-comments')
-      const converter = new showdown.Converter(),
+      const converter = new showdown.Converter()
       comments.forEach(function (comment) {
-        const htmlBody = converter.makeHtml(comment.body);
+        const htmlBody = converter.makeHtml(comment.body)
         $commentSection.append(
           `
           <li class="comment">
