@@ -1,5 +1,39 @@
 <section>
-  comments
-  post {{post.gh_issue_id}}
-  page {{page.gh_issue_id}}
+  <span>
+    <a target='_blank' href='https://github.com/conybcc/conybcc.github.io/issues/<% page.gh_issue_id %>'>
+      点击评论(需要登录github账号)
+    </a>
+    评论完成后,回到该页面刷新
+  <span>
+  <div class='blog-post-comments'></div>
 </section>
+
+<script type="text/javascript">
+const apiUrl = 'https://api.github.com/repos/conybcc/conybcc.github.io/issues/<% page.gh_issue_id %>/comments'
+
+$(function() {
+  $.ajax(apiUrl, {
+    headers: {
+        Accept: 'application/vnd.github.v3.html+json'
+    },
+    dataType: 'json',
+    success: function(comments) {
+      const $commentSection = $('.blog-post-comments')
+      comments.forEach(function (comment) {
+        $commentSection.append(
+          `
+          <div class="comment">
+            <a class="commenter" href="${comment.user.html_url}"
+              target="_blank">${comment.user.login}</a>,
+              ${new Date(comment.created_at).toUTCString()}
+            <p>
+              ${comment.body_html}
+            </p>
+          </div>
+          `
+        )
+      })
+    }
+  })
+})
+</script>
