@@ -1,3 +1,6 @@
+---
+gh_issue_id: 5
+---
 # 关于金融会计等经济领域从业人员学习编程知识的思考
 
 ![image](images/title.jpg)

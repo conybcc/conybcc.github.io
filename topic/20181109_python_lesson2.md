@@ -1,3 +1,6 @@
+---
+gh_issue_id: 4
+---
 # 第二课 安装python环境 深入了解爬虫
 ## windows下安装python环境
 ### 下载
