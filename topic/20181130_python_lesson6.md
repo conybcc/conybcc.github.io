@@ -128,7 +128,7 @@ a, b = ['apple', 'banana']
 print(a)
 print(b)
 
-c, = ['cool', 'cold', 'cry']
+c, = ['cool']
 print(c)
 ```
 如果数组里有个值, 赋给变量的时候可以依次对应,也可以不填后面的
