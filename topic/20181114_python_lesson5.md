@@ -2,6 +2,12 @@
 gh_issue_id: 8
 ---
 # <跟着小邢老师学python> 第五课 用Python做量化交易策略 画图并导出csv
+
+<a href="https://www.bilibili.com/video/av35982906/" target="_blank">
+  <img src="topic/images/bilibili.png" />
+  查看B站视频
+</a>
+
 今天我们介绍金融证券经常用到的一个场景 **量化交易**
 
 量化交易涉及到的内容非常多，有不少知识理解起来很有挑战

@@ -3,6 +3,11 @@ gh_issue_id: 9
 ---
 # <跟着小邢老师学python> 第六课 使用matplotlib画图
 
+<a href="https://www.bilibili.com/video/av37162840/" target="_blank">
+  <img src="topic/images/bilibili.png" />
+  查看B站视频
+</a>
+
 上一课我们介绍了量化交易策略,在程序里也体现了画图的代码,并没有讲解
 
 今天就详细介绍画图相关的知识点

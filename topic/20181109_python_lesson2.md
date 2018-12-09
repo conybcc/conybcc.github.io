@@ -2,6 +2,12 @@
 gh_issue_id: 4
 ---
 # <跟着小邢老师学python> 第二课 安装python环境 深入了解爬虫
+
+<a href="https://www.bilibili.com/video/av35860040/" target="_blank">
+  <img src="topic/images/bilibili.png" />
+  查看B站视频
+</a>
+
 ## windows下安装python环境
 ### 下载
 首先打开python的官网windows版本下载页面

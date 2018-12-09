@@ -3,6 +3,11 @@ gh_issue_id: 6
 ---
 # <跟着小邢老师学python> 第三课 爬取上交所年报到本地
 
+<a href="https://www.bilibili.com/video/av35860657/" target="_blank">
+  <img src="topic/images/bilibili.png" />
+  查看B站视频
+</a>
+
 ## 思路
 根据上一节课的分析，我们已经有了初步的思路，现在就把这些思路一步步整理并用代码实现
 
