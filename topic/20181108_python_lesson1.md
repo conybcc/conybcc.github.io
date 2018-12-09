@@ -4,7 +4,7 @@ gh_issue_id: 3
 # <跟着小邢老师学python> 第一课 初识python 最简爬虫
 
 <a href="https://www.bilibili.com/video/av35831119/" target="_blank">
-  <img src="topic/images/bilibili.png" />
+  <img src="/topic/images/bilibili.png" />
   查看B站视频
 </a>
 

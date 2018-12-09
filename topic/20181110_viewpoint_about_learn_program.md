@@ -4,7 +4,7 @@ gh_issue_id: 5
 # 关于金融会计等经济领域从业人员学习编程知识的思考
 
 <a href="https://www.bilibili.com/video/av35837780/" target="_blank">
-  <img src="topic/images/bilibili.png" />
+  <img src="/topic/images/bilibili.png" />
   查看B站视频
 </a>
 

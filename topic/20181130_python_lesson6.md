@@ -4,7 +4,7 @@ gh_issue_id: 9
 # <跟着小邢老师学python> 第六课 使用matplotlib画图
 
 <a href="https://www.bilibili.com/video/av37162840/" target="_blank">
-  <img src="topic/images/bilibili.png" />
+  <img src="/topic/images/bilibili.png" />
   查看B站视频
 </a>
 

@@ -4,7 +4,7 @@ gh_issue_id: 8
 # <跟着小邢老师学python> 第五课 用Python做量化交易策略 画图并导出csv
 
 <a href="https://www.bilibili.com/video/av35982906/" target="_blank">
-  <img src="topic/images/bilibili.png" />
+  <img src="/topic/images/bilibili.png" />
   查看B站视频
 </a>
 
