@@ -1,7 +1,7 @@
 ---
 gh_issue_id: 10
 ---
-# <跟着小邢老师学python> 第七课 股票的macd曲线是如何画出来的
+# <跟着小邢老师学python> 第七课 如何生成股票的macd指标
 
 <a href="https://www.bilibili.com/video/av0000000/" target="_blank">
   <img src="/topic/images/bilibili.png" />
