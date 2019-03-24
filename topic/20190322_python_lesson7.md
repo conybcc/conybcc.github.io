@@ -138,7 +138,7 @@ EMA ＝（当日收盘价－上日EMA）／N＋上日EMA
 - 本文认为macd是一个整体概念,不是哪条线
 
 `dea的别名`
-- 因为dea是在diff基础上生成的, 有一定的辅助作用,有时候也叫signal
+- 因为dea是在dif基础上生成的, 有一定的辅助作用,有时候也叫signal
 - 也有人把dea叫作 dem, macd
 
 `histogram的别名`
