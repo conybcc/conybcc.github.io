@@ -1,5 +1,5 @@
 ---
-gh_issue_id: 9
+gh_issue_id: 10
 ---
 # <跟着小邢老师学python> 第七课 股票的macd曲线是如何画出来的
 
@@ -113,7 +113,7 @@ df[name] = df['close'].rolling(window).mean()
 `指数移动平均数指标(Exponential Moving Average，EXPMA或EMA)`
 [智库百科](https://wiki.mbalib.com/wiki/EMA)
 
-EXPMA＝（当日或当期收盘价－上一日或上期EXPMA）／Ｎ＋上一日或上期EXPMA，其中，首次上期EXPMA值为上一期收盘价，Ｎ为天数。
+EMA ＝（当日收盘价－上日EMA）／N＋上日EMA
 
 ***macd的概念很清晰, 但是有很多不同的说法***
 
