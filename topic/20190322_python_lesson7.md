@@ -17,7 +17,7 @@ gh_issue_id: 9
 ## 目标
 - 抓取数据
 - 计算ma指标
-- 计算macd批标
+- 计算macd指标
 - 简单画图展示
 
 先看一下最终效果
@@ -104,7 +104,7 @@ def ma_lines(df, windows):
 df[name] = df['close'].rolling(window).mean()
 ```
 
-## 计算macd批标
+## 计算macd指标
 ### macd指标的概念与分析
 `平滑异同移动平均线 (Moving Average Convergence Divergence)`
 [百度百科](https://baike.baidu.com/item/MACD%E6%8C%87%E6%A0%87/6271283)
