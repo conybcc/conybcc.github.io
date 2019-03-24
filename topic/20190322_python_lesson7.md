@@ -106,42 +106,47 @@ df[name] = df['close'].rolling(window).mean()
 
 ## 计算macd批标
 ### macd指标的概念与分析
-平滑异同移动平均线 (Moving Average Convergence Divergence)
+`平滑异同移动平均线 (Moving Average Convergence Divergence)`
 [百度百科](https://baike.baidu.com/item/MACD%E6%8C%87%E6%A0%87/6271283)
 [智库百科](https://wiki.mbalib.com/wiki/MACD)
 
-指数移动平均数指标(Exponential Moving Average，EXPMA或EMA)
+`指数移动平均数指标(Exponential Moving Average，EXPMA或EMA)`
 [智库百科](https://wiki.mbalib.com/wiki/EMA)
 
 EXPMA＝（当日或当期收盘价－上一日或上期EXPMA）／Ｎ＋上一日或上期EXPMA，其中，首次上期EXPMA值为上一期收盘价，Ｎ为天数。
 
-macd的概念很清晰, 但是有很多不同的说法
+***macd的概念很清晰, 但是有很多不同的说法***
 
 本教程采用的说法与概念的对应关系如下
-- 短期ema ema(close, 12)
-- 长期ema ema(close, 26)
-- 离差值 dif = ema(close, 12) - ema(close, 26)
-- 离差平均值 dea = ema(dif, 9)
-- 柱 histogram = (dif - dea) * 2
+- `短期ema` ema(close, 12)
+- `长期ema` ema(close, 26)
+- `离差值` dif = ema(close, 12) - ema(close, 26)
+- `离差平均值` dea = ema(dif, 9)
+- `柱` histogram = (dif - dea) * 2
 
-不同说法的介绍
-- 快速/慢速/短期/长期
-    因为ema(close,12)比ema(close, 26)的变化要快, dif比dea的变化也要快, 所以有些地方会混淆`快`与`短`, `慢`与`长`
+### 不同说法的介绍
+`快速/慢速/短期/长期`
 
-    只说快速线,很难知道是ema(close, 12) 还是dif
-- macd到底是谁
-    因为dif是macd指标的核心, 所以有时候也叫dif为macd
-    因为有时候不体现histogram的命名, 所以也叫 histogram 为macd
-    因为有时候dea的说法比较不稳定, 所以也会叫 dea为macd
-    本文认为macd是一个整体概念,不是哪条线
-- dea的别名
-    因为dea是在diff基础上生成的, 有一定的辅助作用,有时候也叫signal
-    也有人把dea叫作 dem, macd
-- histogram的别名
-    因为是一个柱形, 像一个长条, 有时候也叫bar
-    因为也体现了一定的信号, 有时候也叫signal
-    很多成熟的网站又把histogram叫作macd
+因为ema(close,12)比ema(close, 26)的变化要快, dif比dea的变化也要快, 所以有些地方会混淆`快`与`短`, `慢`与`长`
 
+只说快速线,很难知道是ema(close, 12) 还是dif
+
+`macd到底是谁`
+- 因为dif是macd指标的核心, 所以有时候也叫dif为macd
+- 因为有时候不体现histogram的命名, 所以也叫 histogram 为macd
+- 因为有时候dea的说法比较不稳定, 所以也会叫 dea为macd
+- 本文认为macd是一个整体概念,不是哪条线
+
+`dea的别名`
+- 因为dea是在diff基础上生成的, 有一定的辅助作用,有时候也叫signal
+- 也有人把dea叫作 dem, macd
+
+`histogram的别名`
+- 因为是一个柱形, 像一个长条, 有时候也叫bar
+- 因为也体现了一定的信号, 有时候也叫signal
+- 很多成熟的网站又把histogram叫作macd
+
+### 不同公式与参数
 不只是说法不统一, 计算ema初值与 histogram的公式也不统一
 
 ***ema初值***
