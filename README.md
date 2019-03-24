@@ -24,7 +24,7 @@ print(lines[::-1])
 [第四课 学习python的基本语法](topic/20181113_python_lesson4.md) |  <a href="https://www.bilibili.com/video/av35890316/" target="_blank"><img src="/topic/images/bilibili.png" />B站</a> , <a href="https://v.qq.com/x/page/r0792927tiz.html" target="_blank"><img src="topic/images/v_qq.png" />腾讯</a>
 [第五课 用python做量化交易策略 画图并导出csv](topic/20181114_python_lesson5.md) |  <a href="https://www.bilibili.com/video/av35982906/" target="_blank"><img src="/topic/images/bilibili.png" />B站</a> , <a href="https://v.qq.com/x/page/l0793478hgv.html" target="_blank"><img src="topic/images/v_qq.png" />腾讯</a>
 [第六课 使用matplotlib画图](topic/20181130_python_lesson6.md) |   <a href="https://www.bilibili.com/video/av37162840/" target="_blank"><img src="/topic/images/bilibili.png" />B站</a>
-[第六课 股票的macd曲线是如何画出来的](topic/20190322_python_lesson7.md) |   制做中...
+[第七课 股票的macd曲线是如何画出来的](topic/20190322_python_lesson7.md) |   制做中...
 待定课程 python里面的函数，类那些事儿 |
 待定课程 python来做蒙特卡罗模拟 |
 待定课程 处理数据神器pandas详解 |
