@@ -3,7 +3,7 @@ gh_issue_id: 10
 ---
 # <跟着小邢老师学python> 第七课 如何生成股票的macd指标
 
-<a href="https://www.bilibili.com/video/av0000000/" target="_blank">
+<a href="https://www.bilibili.com/video/av47226509/" target="_blank">
   <img src="/topic/images/bilibili.png" />
   查看B站视频
 </a>
