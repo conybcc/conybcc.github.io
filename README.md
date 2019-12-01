@@ -26,6 +26,7 @@ print(lines[::-1])
 [第六课 使用matplotlib画图](topic/20181130_python_lesson6.md) |   <a href="https://www.bilibili.com/video/av37162840/" target="_blank"><img src="/topic/images/bilibili.png" />B站</a>
 [第七课 如何生成股票的macd指标](topic/20190322_python_lesson7.md) |  <a href="https://www.bilibili.com/video/av47226509/" target="_blank"><img src="/topic/images/bilibili.png" />B站</a>
 [第八课 生成夏普比率评价交易](topic/20191121_python_lesson8.md) |  <a href="https://www.bilibili.com/video/av76491452/" target="_blank"><img src="/topic/images/bilibili.png" />B站</a>
+[第九课 最大回撤率](topic/20191201_python_lesson9.md) |  <a href="https://www.bilibili.com/video/av76491452/" target="_blank"><img src="/topic/images/bilibili.png" />B站</a>
 待定课程 python里面的函数，类那些事儿 |
 待定课程 python来做蒙特卡罗模拟 |
 待定课程 处理数据神器pandas详解 |
