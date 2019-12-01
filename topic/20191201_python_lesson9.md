@@ -3,7 +3,7 @@ gh_issue_id: 12
 ---
 # <跟着小邢老师学python> 第九课 计算最大回撤率
 
-<a href="https://www.bilibili.com/video/av76491452/" target="_blank">
+<a href="https://www.bilibili.com/video/av77700008/" target="_blank">
   <img src="/topic/images/bilibili.png" />
   查看B站视频
 </a>
